@@ -8,7 +8,7 @@
  *   (get it with:  Get{Recipient}  as your low-priv account -> the row with recipientType "LogPopup")
  */
 
-const ATTACKER_RECIP = 'PASTE-YOUR-RECIPIENT-ID-HERE';   // e.g. "b2D"
+const ATTACKER_RECIP = 'b2D';   // e.g. "b2D"
 
 (async () => {
   try {
