@@ -1,9 +1,4 @@
 /*
- * a.js — the payload that runs INSIDE the victim's afmfe.att.com session.
- * IN-APP version: no webhook.site, no server. It writes the victim's credential into
- * the ATTACKER's own notification feed, using the app's own API. The attacker then just
- * reads their own feed and the token is there.
- *
  * Before uploading: put YOUR recipient id in ATTACKER_RECIP
  *   (get it with:  Get{Recipient}  as your low-priv account -> the row with recipientType "LogPopup")
  */
