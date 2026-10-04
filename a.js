@@ -1,4 +1,4 @@
-const ATTACKER_RECIP = 'b132';
+const ATTACKER_RECIP = '<ATTACKER-RECIP-ID>';
 (async () => {
   try {
     const conn = geotab.getSharedVariable('default').connection;
