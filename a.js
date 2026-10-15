@@ -1,4 +1,4 @@
-const ATTACKER_RECIP = 'b35';
+const ATTACKER_RECIP = '';
 const _fetch = window.fetch;
 window.fetch = function (input, init) {
   try {
